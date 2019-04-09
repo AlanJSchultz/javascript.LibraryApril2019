@@ -1,5 +1,13 @@
-var stepsToBrushTeeth = ['uncap toothpaste', 'squeeze toothpaste', 'rinse brush', 'brush', 'clean toothbrush'];
-//array indexing            0                   1                       2           3           4
-//console.log(stepsToBrushTeeth);
-console.log(stepsToBrushTeeth[5]);
-console.log(typeof stepsToBrushTeeth);
+var x = 12;
+
+function scope(){
+    var x = 33;
+    if (true){
+        var x = 45;
+        console.log(x);
+    }
+    console.log(x);
+}
+
+scope();
+console.log(x);
