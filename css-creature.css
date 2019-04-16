@@ -1,0 +1,143 @@
+.face {
+position: absolute;
+left: 200px;
+top: 50px;
+height: 250px;
+width: 200px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+}
+.mouth {
+position: absolute;
+left: 265px;
+top: 240px;
+height: 20px;
+width: 75px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+}
+.lips {
+position: absolute;
+left: 265px;
+top: 250px;
+height: 0px;
+width: 75px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 1px solid black;
+}
+.leftEar {
+position: absolute;
+left: 160px;
+top: 125px;
+height: 100px;
+width: 50px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+}
+.leftEarDetail {
+position: absolute;
+left: 185px;
+top: 150px;
+height: 50px;
+width: 0px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 1px solid black;
+}
+.rightEar {
+position: absolute;
+left: 390px;
+top: 125px;
+height: 100px;
+width: 50px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+}
+.rightEarDetail {
+position: absolute;
+left: 415px;
+top: 150px;
+height: 50px;
+width: 0px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 1px solid black;
+}
+.leftEye {
+position: absolute;
+left: 240px;
+top: 120px;
+height: 50px;
+width: 50px;
+background-color: #bbb;
+border-radius: 50%;
+border: 2px solid black;
+}
+.rightEye {
+position: absolute;
+left: 310px;
+top: 120px;
+height: 50px;
+width: 50px;
+background-color: #bbb;
+border-radius: 50%;
+border: 2px solid black;
+}
+.nose {
+position: absolute;
+left: 275px;
+top: 170px;
+height: 50px;
+width: 50px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+}
+.noseBridge {
+position: absolute;
+left: 277px;
+top: 163px;
+height: 50px;
+width: 50px;
+background-color: #ffcccc;
+border-radius: 50%;
+}
+.glassesBridge {
+position: absolute;
+left: 289px;
+top: 135px;
+height: 0px;
+width: 22px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+display: inline-block
+}
+.glassesLeft {
+position: absolute;
+left: 201px;
+top: 135px;
+height: 0px;
+width: 40px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+display: inline-block
+}
+.glassesRight {
+position: absolute;
+left: 360px;
+top: 135px;
+height: 0px;
+width: 40px;
+background-color: #ffcccc;
+border-radius: 50%;
+border: 2px solid black;
+display: inline-block
+}
+  

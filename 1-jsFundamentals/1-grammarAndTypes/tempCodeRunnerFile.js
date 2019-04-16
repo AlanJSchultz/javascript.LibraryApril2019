@@ -1,5 +1,1 @@
-
-let complexObjLiteral = {num: 1, boolean: true, string: 'Academy', arr: [1,2,3], obj: {key: 'test'}, func: function(){return 'yes'}};
-
-console.log(complexObjLiteral.func);
-console.log(complexObjLiteral.arr);
+console.log('you can seperate parts of a console with commas', 'just like this!');
