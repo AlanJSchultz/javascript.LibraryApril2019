@@ -1,13 +1,18 @@
+let carObj = {
+    make: 'Scion',
+    model: 'XB',
+    color: 'blue',
+    wheels: 4,
+    fast: false
+};
 
-let obj = {
-    key1: 'yeah!', 
-    key2: 1150, 
-    key3: true, 
-    key4: [1,2,3,4], 
-    key5: {innerKey: 'mind blown!'}
-}
+// let keys = Object.keys(carObj); // Object.keys returns an array of givens object own property names
+// console.log(keys);
 
-let keys = Object.keys(obj); //Object.keys gives us the names of the keys in an array ->
-for (let val of keys){
-    console.log(val);
-}
+// for (let c of keys) {
+//     console.log(c);
+// };
+
+keys.forEach((key) => {
+    console.log(carObj[key]);
+})
