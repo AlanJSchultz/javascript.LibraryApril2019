@@ -92,10 +92,13 @@ for (let val of keys){
     console.log(val);
 }
 
-
 console.log(obj);
 
 
+// for (let i = 0; i < array.length; i++) {
+//   const element = array[i];
+  
+// }
 
 /////SOLUTIONS!!!!!!!!!!!!!!
 

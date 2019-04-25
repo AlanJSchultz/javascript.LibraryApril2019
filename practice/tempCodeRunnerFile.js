@@ -1,2 +1,14 @@
-let obj = {name: 'Batman', age: 42, isVillain: false};
-console.log(Object.keys(obj));
+const first = (second, third) => {
+  let newVar = second(third);
+  console.log(newVar);
+}
+
+const second = (third) => {
+  return 4 * third;
+}
+
+const third = () => {
+  return 5;
+}
+
+first(second, third);

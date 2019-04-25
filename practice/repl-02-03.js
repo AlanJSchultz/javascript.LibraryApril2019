@@ -23,15 +23,56 @@ Outside first function:
   console.log the grabbed result
 */
 
-function firstFunc(params) {
-  var x = 3
-  for (let i = 0; i < 10; i++) {
-    secondFunc
-    
+// function firstFunction(func){
+  //write your code here
+// }
+
+function firstFunction(func){
+  let newVar = 3;
+  for (let i = 0; i < 10; i++){
+    newVar = func(newVar)
+    console.log(newVar);
   }
 }
-
-function secondFunc(params) {
-  x = x + 5;
-  return x;
+function secondFunction(variable){
+  return variable + 5;
 }
+firstFunction(secondFunction);
+
+
+// function secondFunction(variable){
+  //write your code here
+// }
+
+
+
+//simpler example
+
+function firstFunc(secondFunc){
+  let newVar = 3;
+  secondFunc(newVar);  
+}
+
+function secondFunc(number){
+  number = number + 5;
+  return number;
+}
+
+firstFunc(seconFunc);
+
+//another
+
+const first = (second, third) => {
+  let newVar = second(third);
+  console.log(newVar);
+}
+
+const second = (third) => {
+  return 4 * third;
+}
+
+const third = () => {
+  return 5;
+}
+
+first(second, third);
