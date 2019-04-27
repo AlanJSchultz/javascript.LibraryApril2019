@@ -1,8 +1,7 @@
-function func1 (input){  //'Input' refers to func2 from below - line 118.
-    return input(Math.floor(Math.random()*10));
-}
-function func2(num){  //'func2 only runs because of 'func1'
-    return num + ': i am a number';
-}
+function newFunc(param) {console.log(param)};
 
-console.log(func1(func2));
+let firstVar = newFunc;
+let secondVar = newFunc;
+let thirdVar = newFunc;
+
+console.log(firstVar == secondVar);
