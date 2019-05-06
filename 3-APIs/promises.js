@@ -11,7 +11,7 @@ let promise = new Promise (function(resolve, reject){
 })
 
 promise
-    .then(success => console.log(blah))  //blah = 'success'
+    .then(blah => console.log(blah))  //blah = 'success'
     .catch(err => console.log(err)); //err = 'failure'
 
     console.log('this code is after our promise & .then chain!');

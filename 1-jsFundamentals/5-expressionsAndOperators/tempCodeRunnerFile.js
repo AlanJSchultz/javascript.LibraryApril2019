@@ -1,4 +1,3 @@
-let obj = {key: 'test'};
-console.log(obj == {key: 'test'});
-
-console.log(obj == obj);
+let y = 7;
+y **= 3;
+console.log(y);
