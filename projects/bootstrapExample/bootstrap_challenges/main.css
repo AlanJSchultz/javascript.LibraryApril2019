@@ -1,0 +1,27 @@
+h1 {
+    padding-top: 2em;
+}
+
+.btn-secondary {
+    background-color: orangered;
+    border-color: orangered;
+    border-radius: 100%;
+}
+
+#changed {
+    background-color: black;
+    color: white;
+}
+
+.card-body img {
+    width: 100%;
+    height: auto;
+}
+
+.progress {
+    margin-top: 10px;
+}
+
+#coloredBar {
+    background-color: purple;
+}
