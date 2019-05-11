@@ -34,3 +34,17 @@ will be different in the html.  Below is an example of the before and after:
 
 */
 
+
+
+//slacked from tyler:
+const div = document.querySelector('div');
+const body = document.querySelector('body');
+
+function mover(){
+  while (div.hasChildNodes()){
+    let element = div.firstChild;
+    body.appendChild(element);
+  }
+}
+
+mover();

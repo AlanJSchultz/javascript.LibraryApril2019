@@ -38,12 +38,28 @@ function qpRemover(array){
 
 
 
-  var text = "foo bar lOo zOo moo";
-  console.log(text);  //  foo bar lOo zOo moo
-// fixText = text.toLowerCase()
-// .split(' ')
-  fixText = text.split(' ')
-    .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-    .join(' ');
-    console.log(fixText);  //  Foo Bar LOo ZOo Moo
+//   var text = "foo bar lOo zOo moo";
+//   console.log(text);  //  foo bar lOo zOo moo
+// // fixText = text.toLowerCase()
+// // .split(' ')
+//   fixText = text.split(' ')
+//     .map((s) => s.charAt(0).toUpperCase() + s.substring(1))
+//     .join(' ');
+//     console.log(fixText);  //  Foo Bar LOo ZOo Moo
 
+
+// from Tyler
+let inputArr = ['tyler Michael shelton', 'LAINEY', '1150 academy', 'quietly tiptoe', 'this is a thing'];
+
+function capitalizer(array){
+  //the function accepts an array of strings, and returns a correctly-capitalized array of strings
+  let returnArr = array.map((string) => { //accepts a string from inputArr, and correctly capitalizes the whole string
+    let capitalized = string.split(' ').map(word => {//accepts a word, and correctly capitalizes just that word
+     return word.charAt(0).toUpperCase() + word.slice(1)
+    });
+    return capitalized.join(' ');
+  });
+  return returnArr;
+}
+
+capitalizer(inputArr);
